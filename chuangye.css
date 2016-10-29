@@ -1,0 +1,138 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  height: 700px;
+}
+.head img{
+  height: 100%;
+  width: 100%;
+}
+.flow{
+  width: 200px;
+  padding: 10px;
+  color: #414141;
+  border-top: 3px solid #da2c2c;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 100px;
+}
+.flow_head{
+  text-align: center;
+  border-bottom: 2px solid #414141;
+}
+.flow_head p{
+  margin: 5px;
+}
+.flow_main{
+  text-align: center;
+}
+.flow_main p{
+  font-weight: bolder;
+  padding-top: 15px;
+}
+.flow_main a{
+  color: #414141;
+  text-decoration: none;
+}
+.right{
+  position: fixed;
+  top: 250px;
+  right: 0;
+}
+.right>div{
+  height: 45px;
+  margin-bottom: 2px;
+  background-color: transparent;;
+  cursor: pointer;
+  background-repeat: no-repeat;
+}
+.right_1:hover .rukou_1{
+  display: block;
+}
+.right_2:hover .rukou_2{
+  display: block;
+}
+.right_3:hover .rukou_3{
+  display: block;
+}
+.rukou_1,.rukou_2,.rukou_3{
+  box-sizing: content-box;
+  border-top-left-radius: 22px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 22px;
+  display: none;
+  width: 70px;
+  height: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #074b4e;
+  color: #fff;
+  line-height: 45px;
+  float: left;
+}
+.icon-1{
+  height: 45px;
+  width: 45px;
+  float: right;
+  background-image: url(image/right_icon.png);
+  background-position: 0 0;
+}
+.icon-2{
+  height: 45px;
+  width: 45px;
+  float: right;
+  background-image: url(image/right_icon.png);
+  background-position: 0 -92px;
+}
+.icon-3{
+  height: 45px;
+  width: 45px;
+  float: right;
+  background-image: url(image/right_icon.png);
+  background-position: 0 -183px;
+}
+.main_nav{
+  background-color: #074b4e;
+}
+.main_nav span{
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+  width: 24.6%;
+  height: 30px;
+  line-height: 30px;
+}
+.main_nav span:hover{
+  color: #000;
+  background-color: #fff;
+}
+.tab-contentp{
+  margin-top: 10px;
+}
+#logn{
+  display: none;
+  text-align: center;
+  width: 500px;
+  height: 250px;
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+#logn input{
+  margin-bottom: 10px;
+}
+.forget{
+  width: 340px;
+  text-align: right;
+}
+.btn{
+  width: 160px;
+  background-color: #5bc0de;
+}
