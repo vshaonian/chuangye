@@ -16,7 +16,7 @@
   border-top: 3px solid #da2c2c;
   background-color: #fff;
   position: fixed;
-  top: 0;
+  top: 130px;
   left: 100px;
 }
 .flow_head{
@@ -25,6 +25,9 @@
 }
 .flow_head p{
   margin: 5px;
+}
+.flow_head h3{
+  font-weight: bolder;
 }
 .flow_main{
   text-align: center;
@@ -39,7 +42,7 @@
 }
 .right{
   position: fixed;
-  top: 250px;
+  top: 370px;
   right: 0;
 }
 .right>div{
@@ -122,7 +125,7 @@
   background-color: #fff;
   opacity: 0.7;
   position: absolute;
-  top: 200px;
+  top: 300px;
   left: 700px;
 }
 #logn input{
