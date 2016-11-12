@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+nav span{
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #c01920;
+}
+nav img{
+  max-width: 100%;
+}
+.navv{
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #f1a750;
+}
+.navv a{
+  display: inline-block;
+  width: 13.7%;
+  color: #fff;
+  text-align: center;
+}
+.accc{
+  background-color: #e87528;
+}
+.navv a:hover{
+  background-color: #e87528;
+  text-decoration: none;
+}
+.main{
+  width: 1200px;
+  margin: 0 auto;
+}
+.main-head{
+  margin: 20px 0;
+  padding-left: 10px;
+  border: 1px solid #ccc;
+}
+.zhiwei{
+  margin: 20px 0;
+  word-break: keep-all;
+}
+.ll{
+  margin: 0 10px;
+}
+.se-right{
+  float: right;
+}
+.chose{
+  border: 1px solid #ccc;
+}
+.chose form{
+  padding: 10px 10px;
+  border-bottom: 1px solid #ccc;
+  background-color: #f3f3f3;
+}
+.se-left{
+  margin-right: 10px;
+}
+dl{
+  height: 35px;
+  margin-bottom: 0!important;
+  padding-top: 10px!important;
+  padding: 0px 10px;
+  border-bottom: 1px solid #ccc;
+}
+dl dd:last-child{
+  text-align: right;
+}
+dt,dd{
+  width: 25%;
+  float: left;
+}

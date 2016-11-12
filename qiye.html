@@ -9,16 +9,79 @@
 </head>
 <body>
   <nav>
-    <img src="image/head.gif" alt="" />
+    <a href="chuangye.html"><img src="image/head.gif" alt="" /></a>
+    <span>就业服务网</span>
   </nav>
-  <h1>请完成企业认证</h1>
-  <p>企业名称<input type="text"></p>
-  <p>企业类型<input type="text"></p>
-  <p>企业地址<input type="text"></p>
-  <p>登记机关<input type="text"></p>
-  <p>法人<input type="text"></p>
-  <p>法人证件号<input type="text"></p>
-  <p>联系电话<input type="text"></p>
-
+  <div class="navv">
+    <a href="chuangye.html"><span>首页</span></a>
+    <a href="jianzhi.html"><span>兼职信息</span></a>
+    <a href="teacher.html"><span>定向培养</span></a>
+    <a href="qiye.html" class="accc"><span>企业认证</span></a>
+    <a href="classmate.html"><span>就业情况</span></a>
+    <a href="peixun.html"><span>入职培训</span></a>
+    <a href="test.html"><span>职业能力测试</span></a>
+  </div>
+  <div class="main">
+    <div class="chara">
+      <span class="red">*</span>
+      <span>选择方式</span>
+      <input type="radio" name="name" value="招正式工">招正式工
+      <input type="radio" name="name" value="招兼职">招兼职
+    </div>
+    <div class="phone">
+      <span class="red">*</span>
+      <span>手机号码</span>
+      <input type="text" name="name" value="" placeholder="请输入手机号">
+      <button type="button" name="button">点击发送验证码</button>
+    </div>
+    <div class="name">
+      <span class="red">*</span>
+      <span>公司名称</span>
+      <input type="text" name="name" value="" placeholder="请填写营业执照上的名称">
+    </div>
+    <div class="jianjie">
+      <span class="red">*</span>
+      <span>公司简介</span>
+      <textarea name="name" rows="8" cols="80" placeholder="50-10000字,不能填写电话,QQ等联系方式"></textarea>
+    </div>
+    <div class="ren">
+      <span class="red">*</span>
+      <span>联系人&nbsp</span>
+      <input type="text" name="name" value="" placeholder="请填写联系人">
+    </div>
+    <div class="lianxi">
+      <span class="red">*</span>
+      <span>联系电话</span>
+      <input type="text" name="name" value="" placeholder="请输入有效的电话">
+    </div>
+    <div class="area">
+      <span class="red">*</span>
+      <span>所在地区</span>
+      <select class="" name="">
+        <option value="option">郑州</option>
+      </select>
+      <select class="" name="">
+        <option value="option">二七区</option>
+      </select>
+    </div>
+    <div class="address">
+      <span class="red">*</span>
+      <span>详细地址</span>
+      <input type="text" name="name" value="" placeholder="详细地址，如英才街6号">
+    </div>
+    <div class="zige">
+      <span class="red">*</span>
+      <span>营业执照</span>
+      <input type="file" name="name" value="">
+    </div>
+    <div class="pic">
+      <span class="red">*</span>
+      <span>公司图片</span>
+      <input type="file" name="name" value="">
+    </div>
+    <div class="finish">
+      <button type="button" name="button">提交审核</button>
+    </div>
+  </div>
 </body>
 </html>

@@ -2,8 +2,47 @@
   margin: 0;
   padding: 0;
 }
+nav{
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+nav span{
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #c01920;
+}
+nav img{
+  max-width: 100%;
+}
+.navv{
+  min-width: 1200px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #f1a750;
+}
+.navv a{
+  display: inline-block;
+  width: 13.7%;
+  color: #fff;
+  text-align: center;
+}
+
+.navv a:hover{
+  background-color: #e87528;
+  text-decoration: none;
+}
+.accc{
+  background-color: #e87528;
+}
 .head{
-  height: 700px;
+  width: 1200px;
+  height: 500px;
+  margin: 10px auto;
 }
 .head img{
   height: 100%;
@@ -15,7 +54,7 @@
   color: #414141;
   border-top: 3px solid #da2c2c;
   background-color: #fff;
-  position: fixed;
+  position: absolute;;
   top: 130px;
   left: 100px;
 }
@@ -60,6 +99,33 @@
 }
 .right_3:hover .rukou_3{
   display: block;
+}
+.main{
+  width: 1200px;
+  margin: 0 auto;
+}
+.lognin{
+  overflow: hidden;
+  text-align: center;
+  font-size: 0;
+}
+.lognin div{
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  width: 400px;
+  cursor: pointer;
+  color: #fff;
+}
+.lo-1{
+  background-color: #f1a750;
+}
+.lo-2{
+  background: #5E344D;
+}
+.lo-3{
+  background-color: #3F9F89;
 }
 .rukou_1,.rukou_2,.rukou_3{
   box-sizing: content-box;

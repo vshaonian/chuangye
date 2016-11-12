@@ -1,5 +1,5 @@
 nav{
-	background-color: #fff;
+  background-color: #fff;
   position: relative;
 }
 nav span{
@@ -120,6 +120,9 @@ nav img{
 	margin: 19px 62px;
 	text-indent: 2em;
 	line-height: 200%;
+}
+.index-right h2,h4{
+  margin:20px 62px;
 }
 .index-right-top{
 	height: 156px;

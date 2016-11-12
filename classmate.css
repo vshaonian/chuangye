@@ -1,6 +1,37 @@
 nav{
 	background-color: #fff;
 }
+nav span{
+  position: absolute;
+  top: 50px;
+  left: 350px;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #c01920;
+}
+nav img{
+  max-width: 100%;
+}
+.navv{
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  background-color: #f1a750;
+}
+.navv a{
+  display: inline-block;
+  width: 13.7%;
+  color: #fff;
+  text-align: center;
+	text-decoration: none;
+}
+.accc{
+  background-color: #e87528;
+}
+.navv a:hover{
+  background-color: #e87528;
+  text-decoration: none;
+}
 .wrap{
 	width: 1200px;
 	height: 3160px;
